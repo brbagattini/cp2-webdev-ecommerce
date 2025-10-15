@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+.Card{
+    display: grid;
+    grid-template-rows: 3fr 3fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+}
